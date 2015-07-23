@@ -1,0 +1,35 @@
+#banner
+	.banner_content
+		%h1 NoteNote
+		%p Your online private notebook.
+		%button= link_to "Sign Up", new_user_registration_path
+
+#testimonial
+	.wrapper
+		%p.quote "The most secure notebook app ever."
+		%p.name - Alejandro Caliente Barron
+
+#callouts
+	.callout_inner
+		.wrapper
+			.callout
+				%i.fa.fa-pencil
+				%h2 Notes
+				%p La la la notes are cool and they are useful for saving ideas or things to do in your life or work la la la.
+			.callout
+				%i.fa.fa-lock
+				%h2 Secure
+				%p La la la notes are cool and they are useful for saving ideas or things to do in your life or work la la la.
+			.callout
+				%i.fa.fa-globe
+				%h2 Global
+				%p La la la notes are cool and they are useful for saving ideas or things to do in your life or work la la la.
+
+#bottom_cta
+	.wrapper
+		%h2 Seriously Awesome Notes!
+		%p Why don't you sign up and no one else has to get hurt?
+		%button= link_to "Click Me Bro", new_user_registration_path
+
+%footer
+	%p &copy; Senor Caliente
